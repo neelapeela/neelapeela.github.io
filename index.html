@@ -230,12 +230,15 @@
 	const register = document.querySelector("#registerbutton");
 	event.addEventListener("click", (eventclick) =>{
 		document.querySelector("#cat-display").scrollIntoView();
+		event.style.opacity = 0.5;
 	})
 	team.addEventListener("click", (eventclick) =>{
 		document.querySelector("#team").scrollIntoView();
+		team.style.opacity = 0.5;
 	})
 	register.addEventListener("click", (eventclick) =>{
 		document.querySelector("#register").scrollIntoView();
+		register.style.opacity = 0.5;
 	})
 	window.addEventListener("scroll", (func) => {
 		if(window.scrollY> 80){
