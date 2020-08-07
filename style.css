@@ -14,7 +14,7 @@ strong{
 }
 
 body{
-	background-color: #1f1f1f;
+	background-color: #0f0f0f;
 }
 
 #content{
@@ -65,7 +65,7 @@ body{
 #normal ul li{
 	text-align: left;
 	width: 500px;
-	background-color: #1f1f1f;
+	background-color: #0f0f0f;
 	padding: 10px 25px 25px 25px;
 	margin: 10px 10px; 
 }
@@ -148,7 +148,7 @@ body{
 	flex-direction: row;
 }
 #tag li{
-	background-color: #1f1f1f;
+	background-color: #0f0f0f;
 	border-radius: 20px;
 	color: white;
 	padding: 10px;
