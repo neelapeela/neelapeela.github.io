@@ -95,7 +95,7 @@ body{
 
 #up #logo{
 	display: flex;
-	flex-direction: row-reverse;
+	flex-direction: row;
 	justify-content: right;
 	margin-right: 0;
 	position: absolute;
@@ -129,7 +129,7 @@ body{
 
 #cat-display h1{
 	display: inline-block;
-	background-color: #090b1a;
+	background-color:#d12106;
 	min-width: auto;
 	padding: 10px;
 	margin: 15px;
@@ -139,7 +139,7 @@ body{
 #events li{
 	background-color: #090b1a;
 	margin: 15px;
-	color: #dba01f;
+	color: #d12106;
 	justify-content: left;
 }
 
