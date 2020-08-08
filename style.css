@@ -31,6 +31,9 @@ body{
 #title:hover{
 	cursor: pointer;
 }
+#title{
+	transition: color 3s;
+}
 #normal{
 	display: flex;
 	flex-direction: column;
@@ -77,6 +80,7 @@ body{
 	margin: 10px 10px; 
 }
 #normal ul li:hover{
+	cursor: pointer;
 	opacity: 0.5;
 	transition: all 0.3s;
 }
