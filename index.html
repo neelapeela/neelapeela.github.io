@@ -2,7 +2,7 @@
 <link href="style.css" rel="stylesheet">
 	<body>
 		<div id ="normal">
-			<p>/root</p>
+			<p id="title">/root</p>
 			<ul>
 				<li id="eventsbutton">events</li>
 				<li id="teambutton">team</li>
@@ -185,11 +185,7 @@
 					<h1>calendar</h1>
 					<div id="cal-size">
 						<ul scrollable id="calendar">
-						<li id="date-box">
-							<div id="date">15 sep</div>
-							<div id="img"></div>
-							<div id="ondate"></div>
-						</li>
+						
 						<li id="date-box">
 							<div id="date">16 sep</div>
 							<div id="img"></div>
@@ -203,12 +199,12 @@
 						<li id="date-box">
 							<div id="date">18 sep</div>
 							<div id="img"><img src="deadline.png"></div>
-							<div id="ondate">prelims deadline: <br>/appdev /design</div>
+							<div id="ondate">prelims deadline: <br><strong>/appdev /design</strong></div>
 						</li>
 						<li id="date-box">
 							<div id="date">19 sep</div>
 							<div id="img"><img src="deadline.png"></div>
-							<div id="ondate">prelims deadline<br>/storywriting /groupdiscussion /virtualphotography</div>
+							<div id="ondate">prelims deadline<br><strong>/storywriting /groupdiscussion /virtualphotography</strong></div>
 						</li>
 						<li id="date-box">
 							<div id="date">20 sep</div>
@@ -218,17 +214,17 @@
 						<li id="date-box">
 							<div id="date">21 sep</div>
 							<div id="img"><img src="final.png"></div>
-							<div id="ondate">final event:<br>/appdev /design /storywriting /groupdiscussion /virtualphotography /tinkerCAD /surprise</div>
+							<div id="ondate">final event:<br><strong>/appdev /design /storywriting /groupdiscussion /virtualphotography /tinkerCAD /surprise</strong></div>
 						</li>
 						<li id="date-box">
 							<div id="date">22 sep</div>
 							<div id="img"><img src="cyrptic.png"></div>
-							<div id="ondate">cryptic hunt</div>
+							<div id="ondate"><strong>cryptic hunt</strong></div>
 						</li>
 						<li id="date-box">
 							<div id="date">23 sep</div>
 							<div id="img"><img src="cyrptic.png"></div>
-							<div id="ondate">cryptic hunt</div>
+							<div id="ondate"><strong>cryptic hunt</strong></div>
 						</li>
 						<li id="date-box">
 							<div id="date">24 sep</div>
@@ -300,7 +296,10 @@
 	const body = document.querySelector('body');
 	const event = document.querySelector("#eventsbutton");
 	const team = document.querySelector("#teambutton");
-	const up = document.querySelector("#up");
+	
+		//scroll back up
+
+	
 	const register = document.querySelector("#registerbutton");
 	event.addEventListener("click", (eventclick) =>{
 		document.querySelector("#cat-display").scrollIntoView();
@@ -311,9 +310,15 @@
 	register.addEventListener("click", (eventclick) =>{
 		document.querySelector("#register").scrollIntoView();
 	})
+	
+	document.querySelector("#title").addEventListener("click", (func)=>{
+		document.querySelector("#title").style.color="#d12106";
+	})
+
 	window.addEventListener("scroll", (func) => {
 		if(window.scrollY> 80){
 			document.querySelector("#normal").id = "up";
+			document.querySelector("#title").style.color="#fff";
 		}
 		else{
 			document.querySelector("#up").id = "normal";

@@ -4,6 +4,9 @@
 	margin: 0;
 }
 
+p{
+	font-size: 20px;
+}
 h1{font-weight: normal;
 	color: 
 }
@@ -25,7 +28,9 @@ body{
 	margin-left: 0px;
 	padding-left: 0px;
 }
-
+#title:hover{
+	cursor: pointer;
+}
 #normal{
 	display: flex;
 	flex-direction: column;
@@ -131,6 +136,7 @@ body{
 }
 
 #cat-display h1{
+	font-size: 30px;
 	display: inline-block;
 	background-color:#d12106;
 	min-width: auto;
@@ -142,8 +148,13 @@ body{
 #events li{
 	background-color: #090b1a;
 	margin: 15px;
+	font-size: 25px;
 	color: #d12106;
 	justify-content: left;
+}
+#events li img{
+	max-height: 30%;
+	max-width: 30%;
 }
 
 #tag{
@@ -155,10 +166,10 @@ body{
 	border-radius: 20px;
 	color: white;
 	padding: 10px;
-	font-size: 20px;
+	font-size: 15px;
 }
 #events p{
-	font-size: 30px;
+	font-size: 20px;
 }
 
 #exe
@@ -188,7 +199,7 @@ body{
 }
 #team p{
 	color: #dba01f;
-	padding: 20px;
+	padding: 25px;
 	background-color:#04050d;
 }
 #cfg
@@ -252,22 +263,22 @@ body{
 #date-box{
 	display: flex;
 	flex-direction: column;
-	flex-basis: 1 2 1;
 }
 
 #date-box #date{
-		width: 300px;
+		width: 100px;
 		text-align: left;
 }
 #date-box #ondate{
 	text-align: right;
-	color: #3ad676;
+	color: #d12106;
 	font-size: 20px;
-	width: 400px;
+	width: 300px;
 }
 
 #date-box #img{
-	height: 200px;
+	height: 100px;
+	padding: 30px;
 }
 
 #date-box #img img{
