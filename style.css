@@ -213,5 +213,29 @@ body{
 	padding: 20px;
 	background-color: #04050d;
 }
-
+#xml
+{
+	justify-content: space-around;
+	display: flex;
+	flex-direction: row;
+	margin-right: 0;
+	min-width: 100%;
+	padding: 0;
+	background-color: #090b1a;
+	box-sizing: 
+}
+#xml li{
+	object-fit: contain;
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin: 0;
+	min-width: 0;
+	display: block;
+}
+#xml p{
+	color: #dba01f;
+	padding: 20px;
+	background-color: #04050d;
+}
 
