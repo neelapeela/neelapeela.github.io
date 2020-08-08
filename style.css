@@ -10,7 +10,12 @@ p{
 h1{font-weight: normal;
 	color: 
 }
-
+::-webkit-scrollbar{
+		background:#090b1a; 
+}
+::-webkit-scrollbar-thumb{
+		background: #00ced1;
+}
 strong{
 	color: #3ad676;
 	font-weight: normal;
@@ -170,7 +175,7 @@ body{
 	border-radius: 20px;
 	color: white;
 	padding: 10px;
-	font-size: 15px;
+	font-size: 18px;
 }
 #events p{
 	font-size: 20px;
