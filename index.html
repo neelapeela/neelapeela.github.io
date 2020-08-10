@@ -17,12 +17,12 @@
 			<ul id="cat-display">
 				<li>
 					<br><br><br>
-					<p> The tech club of <strong>Ryan International School, Vasant Kunj</strong> organises its annual club event <strong>\root\20</strong> for the first time ever on the <strong>1st of October, 2020.</strong><br><br>Backed by a team of passionate tech enthusiasts, <strong>\root\20</strong> seeks to offer a rich and holistic platform for you to unravel parts of your own existence that may be wholly devoted to the love for technology. You never know what may be the source for enlightenment. For all we know, it might just be <strong>\root\20</strong>. </p>
+					<p> The tech club of <strong>Ryan International School, Vasant Kunj</strong> organises its annual club event <strong>\root\20</strong> for the first time ever on the <strong>1st of October, 2020.</strong><br><br>Backed by a team of passionate tech enthusiasts, <strong>\root\20</strong> seeks to offer a rich and holistic platform for you to unravel parts of your own existence that may be wholly devoted to the love for technology. You never know what may be the source for enlightenment. For all we know, it might just be <strong>\root\20</strong>. </p><br> 
 					<h1>events</h1>
 						<h2>the end is nigh</h2>
 						<ul id="theme">
-							<li id="first"><figure><img src="earth.png"></figure><p>It's 2070. The world as we knew it is no more the world as we knew it. <strong>Hazardous UV radiation</strong> has crippled humanity back into their cement shelters. A final bout is yet to come around. <strong>The end is nigh</strong>.</p></li>
-							<li><figure><img src="uv.png"><p><strong>October 1</strong>, as per calculations, is when the sun will emit severe <strong>Coronal Mass Ejection</strong> which is set to inevitably wipe the face of humanity from Earth, unless you can argue otherwise.</p></figure></li>
+							<li id="first"><figure><img src="earth.png"></figure><p>It's 2070. The world as we knew it is no more the world as we knew it. <strong>Hazardous UV radiation</strong> has sealed humanity back into their cement shelters. A final bout is yet to come around. <strong>The end is nigh</strong>.</p></li>
+							<li><figure><img src="uv.png"><p><strong>October 1</strong>, as per calculations, is when the sun will emit severe <strong>Coronal Mass Ejection</strong> which is set to inevitably wipe humanity from the face of Earth, unless you can argue otherwise.</p></figure></li>
 							<li><figure>
 								<img src="quarantine.png">
 							</figure><p>
@@ -32,6 +32,13 @@
 								<img src="un.png">
 								<p>Gustavo Ramirez: This is it. <strong>The United Nations Global Compact</strong> despite all efforts comes to a very unfortunate conclusion. Humanity has lived its prime. It's about time we pass on. </p>
 							</figure></li>
+						</ul>
+						<ul id="timer">
+							<li><p id="demo"></p></li>
+							<li><p>
+								The clock ticks. <strong>Time is running out</strong>. We cannot do much. Maybe you can. Maybe it isn't the end after all? Go ahead, browse through the missions below. See what suits you. We're counting on you. See you on the other side!
+							</p></li>
+							
 						</ul>
 						<ul id="events">
 							<li>\appdev
@@ -355,5 +362,34 @@
 
 		}
 	})
+
+	// Set the date we're counting down to
+var countDownDate = new Date("Oct 1, 2020 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
 </script>
 </html>
