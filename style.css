@@ -188,7 +188,7 @@ body{
 	margin-right: 13%;
 	min-width: 70%;
 	min-height: 70%;
-	background-color: #d12106;
+	background-color: #090b1a;
 }
 #theme li img{
 	max-width: 100%;
@@ -197,10 +197,6 @@ body{
 #theme #first{
 	margin-left: 12%;
 	margin-right: 13%;
-}
-#theme p{
-	color: #090b1a;
-	font-weight: bold;
 }
 
 #tag{
