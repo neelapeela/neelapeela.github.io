@@ -7,13 +7,22 @@
 p{
 	font-size: 20px;
 }
+a{
+	margin: 50px;
+	font-size: 30px;
+	justify-content: center;
+	text-align: center;
+	background-color: white;
+	color: #090b1a;
+	text-decoration: none;
+}
 h1{font-weight: normal;
 	color: 
 }
 h2{
 	font-weight: normal;
 	color: #d12106;
-	font-size: 30px;
+	font-size: 50px;
 	text-align: center;
 	padding: 30px;
 }
@@ -71,6 +80,12 @@ body{
 #logo img {
 	margin-left: 40px;
 	padding: 10px;
+}
+#logo img:hover{
+	cursor: pointer;
+}
+#discordimg{
+	text-decoration: none;
 }
 #normal p{
 	font-size: 100px
