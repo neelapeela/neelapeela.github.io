@@ -13,6 +13,19 @@ p{
 	text-align: center;
 }
 
+#discordimg{
+	text-decoration: none;
+	background: no-repeat;
+	padding: 0;
+	margin: 0;
+}
+#up #discordimg{
+	text-decoration: none;
+	background: no-repeat;
+	padding: 0;
+	margin: 0;
+}
+
 a{
 	margin: 50px;
 	font-size: 30px;
