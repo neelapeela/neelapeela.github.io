@@ -169,8 +169,8 @@ body{
 	justify-content: left;
 }
 #events li img{
-	max-height: 200px;
-	max-width: 200px;
+	max-height: 150px;
+	max-width: 150px;
 }
 
 #theme{
@@ -185,7 +185,7 @@ body{
 	justify-content: center;
 	text-align: center;
 	margin-left: 20px;
-	margin-right: 13%;
+	margin-right: 11%;
 	min-width: 70%;
 	min-height: 70%;
 	background-color: #090b1a;
@@ -196,7 +196,7 @@ body{
 }
 #theme #first{
 	margin-left: 12%;
-	margin-right: 13%;
+	margin-right: 11%;
 }
 #timer{
 	margin-top: 50px;
