@@ -50,7 +50,7 @@
 								<p>
 									<img src="app.png">
 									<br>
-									Develop a software based on the guidelines that will be published here on the page real soon so stay tuned.
+									The quarantine has no end. I mean, it does. But the unfortunate end is fast approaching. Last thing we want happening is people starving to death in their houses. Transport control is strict and routes are tight. Online maps can only offer so much to the common man in these unforeseen times. People need better information: smarter analysis of the availability and proximity of the best routes, places, hospitals. How about you cook something new? 
 									<br>
 									<strong>Std:</strong> 10th-12th
 									<br>
@@ -71,7 +71,7 @@
 								<img src="design.png">
 								<br>
 								<p>
-									Develop a software based on the guidelines that will be published here on the page real soon so stay tuned yo.
+									Not everyone gets a cozy seat at the leading spacecraft company. Things have turned out well for the stakeholders ever since Mars was colonised. What is the wait for? Unveil the top quality passenger spacecraft the world is looking for. Earth is done for. We might as well ruin Mars.
 									<br>
 									<strong>Std:</strong> 10th-12th
 									<br>
@@ -92,7 +92,7 @@
 								<img src="story.png">
 									<br>
 								<p>
-									Develop a software based on the guidelines that will be published here on the page real soon so stay tuned yo.
+									Elon is a 14-year-old South African boy who lives in the rural parts of the country. When economy collapsed, the rich manipulated the system and got the better of it. What happened to Elon and his family?
 									<br>
 									<strong>Std:</strong> 8th-12th
 									<br>
@@ -112,7 +112,7 @@
 								<img src="gd.png">
 									<br>
 								<p>
-									Develop a software based on the guidelines that will be published here on the page real soon so stay tuned yo.
+									Artificial Intelligence is the heart of the remnant world. That's what the government is saying. Rather, asserting. Yes. The government has decided to fire all public sector employees and replace them with missions. Though intended for the greater good of people, what about those with their finak
 									<br>
 									<strong>Std:</strong> 8th-12th
 									<br>
@@ -363,29 +363,22 @@
 		}
 	})
 
-	// Set the date we're counting down to
 var countDownDate = new Date("Oct 1, 2020 00:00:00").getTime();
 
-// Update the count down every 1 second
 var x = setInterval(function() {
 
-  // Get today's date and time
   var now = new Date().getTime();
 
-  // Find the distance between now and the count down date
   var distance = countDownDate - now;
 
-  // Time calculations for days, hours, minutes and seconds
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Display the result in the element with id="demo"
   document.getElementById("demo").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
-  // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "EXPIRED";
