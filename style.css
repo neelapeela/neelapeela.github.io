@@ -347,7 +347,7 @@ body{
 	background-color: #090b1a;
 }
 
-img.icon{
+img.icons{
 	width: 200px;
 	height: 200px;
 	filter: invert(60%) sepia(35%) saturate(2849%) hue-rotate(138deg) brightness(100%) contrast(101%);
