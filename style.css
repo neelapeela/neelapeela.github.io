@@ -169,8 +169,8 @@ body{
 	justify-content: left;
 }
 #events li img{
-	max-height: 15%;
-	max-width: 15%;
+	max-height: 200px;
+	max-width: 200px;
 }
 
 #theme{
