@@ -7,6 +7,9 @@
 p{
 	font-size: 20px;
 }
+#desc{
+	font-size: 20px;
+}
 a{
 	margin: 50px;
 	font-size: 30px;
@@ -26,6 +29,7 @@ h2{
 	text-align: center;
 	padding: 30px;
 }
+
 ::-webkit-scrollbar{
 		background:#090b1a; 
 }
@@ -195,6 +199,7 @@ body{
 	background-color: #0c0f24;
 }
 #theme li{
+	font-style: italic;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
