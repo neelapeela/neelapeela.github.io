@@ -328,10 +328,11 @@
 								</figure></li>
 	
 							</ul>
+							
 						</li>
 					</ul>
 					</li>
-				<li id="register"><h1>register</h1>
+				<li id="register"><h1 id="goof">register</h1>
 					<p> Registrations open soon! </p>
 			</ul>
 		</div>
@@ -347,7 +348,7 @@
 	
 	const register = document.querySelector("#registerbutton");
 	event.addEventListener("click", (eventclick) =>{
-		document.querySelector("#cat-display").scrollIntoView();
+		document.querySelector("#events").scrollIntoView();
 	})
 	team.addEventListener("click", (eventclick) =>{
 		document.querySelector("#team").scrollIntoView();
@@ -358,6 +359,9 @@
 	
 	document.querySelector("#title").addEventListener("click", (func)=>{
 		document.querySelector("#title").style.color="#d12106";
+	})
+	document.querySelector("#goof").addEventListener("click", (func)=>{
+		window.open("goof.html")
 	})
 
 	window.addEventListener("scroll", (func) => {

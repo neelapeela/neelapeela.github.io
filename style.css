@@ -3,6 +3,9 @@
 	color: white;
 	margin: 0;
 }
+html{
+	scroll-behavior: smooth;
+}
 
 p{
 	font-size: 20px;
@@ -339,6 +342,7 @@ body{
 }
 #xml
 {
+	flex-wrap: wrap;
 	justify-content: space-around;
 	display: flex;
 	flex-direction: row;
@@ -359,9 +363,10 @@ body{
 }
 #xml p{
 	color: #dba01f;
-	padding: 20px;
-	background-color: #04050d;
+	background-color: #0c0f24;
 }
+
+
 
 #calendar
 {
@@ -407,5 +412,6 @@ img.icon{
 	height: 200px;
 	filter: invert(60%) sepia(35%) saturate(2849%) hue-rotate(138deg) brightness(100%) contrast(101%);
 }
+
 
 
