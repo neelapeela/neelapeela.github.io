@@ -43,8 +43,9 @@ h2{
 	color: #d12106;
 	font-size: 50px;
 	text-align: center;
-	padding: 30px;
+	padding: 40px;
 }
+
 
 ::-webkit-scrollbar{
 		background:#090b1a; 
@@ -181,7 +182,7 @@ body{
 }
 #cat-display li{
 	align-items: center;
-	justify-content: center;
+	justify-content: left;
 	list-style: none;
 	min-width: 100%
 	margin-left: 0;
@@ -203,15 +204,13 @@ body{
 }
 
 #events li{
-	display: flex;
-	flex-direction: column;
 	background-color: #090b1a;
 	margin: 15px;
-	text-align: center;
-	align-items: center;
+	text-align: left;
+	align-items: left;
 	font-size: 25px;
 	color: #d12106;
-	justify-content: center;
+	justify-content: left;
 }
 #events li p{
 	margin-left: 0;
@@ -222,6 +221,7 @@ body{
 #events li img{
 	max-height: 150px;
 	max-width: 150px;
+	padding: 20px;
 }
 
 #theme{
