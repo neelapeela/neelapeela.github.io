@@ -30,7 +30,7 @@
 							<img id="left" src="left.png">
 							<li id="first"><figure><img src="earth.gif"></figure><p>It's 2070. The world as we knew it is no more the world as we knew it. <strong>Hazardous UV radiation</strong> has sealed humanity back into their cement shelters. A final bout is yet to come around. <strong>The end is nigh</strong>.</p></li>
 							<li><figure><img src="uv.gif"><p><strong>October 1</strong>, as per calculations, is when the sun will emit severe <strong>Coronal Mass Ejection</strong> which is set to inevitably wipe humanity from the face of Earth, unless you can argue otherwise.</p></figure></li>
-							<li><figure>
+							<li id="ideal"><figure>
 								<img src="quarantine.gif">
 							</figure><p>
 								Resources are running out at lightspeed. All governments have enforced <strong>immediate quarantine</strong>. Times are desperate. Streets are desolate. Old people said quarantine isn't anything new to them. Kids wonder why.
@@ -370,6 +370,15 @@
 	const event = document.querySelector("#eventsbutton");
 	const team = document.querySelector("#teambutton");
 	
+	
+	const box = document.querySelector("#ideal");
+	const style = getComputedStyle(box);
+
+	const leftmargin = parseInt(style.marginLeft);
+	console.log(leftmargin);
+
+	width = document.querySelector("#ideal").clientWidth + leftmargin + leftmargin;
+
 		//scroll back up
 
 	
@@ -401,10 +410,10 @@
 
 	//horizontal scroll
 	document.querySelector("#right").addEventListener("click", (func)=>{
-		document.querySelector("#theme").scrollLeft += 750;
+		document.querySelector("#theme").scrollLeft += width;
 	})
 	document.querySelector("#left").addEventListener("click", (func)=>{
-		document.querySelector("#theme").scrollLeft -= 750;
+		document.querySelector("#theme").scrollLeft -= width;
 	})
 
 

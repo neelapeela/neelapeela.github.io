@@ -252,6 +252,10 @@ body{
 	min-width: 70%;
 	background-color: #090b1a;
 }
+#ideal{
+	margin-left: 9%;
+	margin-right: 9%;
+}
 #theme #last{
 	min-width: 6%;
 	max-width: 8%;
