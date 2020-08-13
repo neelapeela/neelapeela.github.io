@@ -458,11 +458,16 @@ img.icon{
 
 footer{
 	display: flex;
+	flex-direction: column;
 	justify-content: space-around;
 	font-size: 20px;
 	min-width: 100%;
 	background-color: #090b1a;
 	align-items: center;
+	padding: 30px;
+}
+footer img{
+	margin-left: 18px;
 }
 
 
