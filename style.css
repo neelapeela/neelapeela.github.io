@@ -232,16 +232,13 @@ body{
 #theme{
 	display: flex;
 	flex-direction: row;
-	overflow-x: scroll;
+	overflow-x: hidden;
 	background-color: #0c0f24;
 	transition: all 0.5s;
 	scroll-behavior: smooth;
 }
 #theme #first{
 	margin-left: 11%;
-}
-#theme #last{
-	padding-right: 11%;
 }
 #theme li{
 	font-style: italic;
@@ -254,6 +251,11 @@ body{
 	min-width: 70%;
 	min-height: 70%;
 	background-color: #090b1a;
+}
+#theme #last{
+	min-width: 6%;
+	max-width: 8%;
+	background-color: none;
 }
 #theme li img{
 	max-width: 100%;
