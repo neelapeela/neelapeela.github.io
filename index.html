@@ -280,7 +280,7 @@
 					</div>
 					
 				</li>
-				<li><h1>team</h1>
+				<li id="team-span"><h1>team</h1>
 					<ul id="team">
 						<li>
 							<p>.exe</p>
@@ -333,20 +333,22 @@
 					</ul>
 					</li>
 				<li id="register"><h1 id="goof">register</h1>
-					<ul id="options">
-						<li>
+					<div id="reg-span">
+						<ul id="options">
+						<li id="indi-button">
 							<figure>
 								<img src="indi.png">
 								<figcaption>individual</figcaption>
 							</figure>
 						</li>
-						<li>
+						<li id="school-button">
 							<figure>
 								<img src="school.png">
 								<figcaption>school</figcaption>
 							</figure>
 						</li>
 					</ul>
+					</div></li>
 			</ul>
 		</div>
 	</body>
@@ -376,6 +378,15 @@
 	document.querySelector("#goof").addEventListener("click", (func)=>{
 		window.open("goof.html")
 	})
+
+	//registration
+	document.querySelector("#indi-button").addEventListener("click", (func)=>{
+		window.open("https://docs.google.com/forms/d/1LfF5FMkKvPhjS44rVvXb9A1IRCasazc2XJHAwywoBzs/edit?ts=5f2ebb72")
+	})
+	document.querySelector("#school-button").addEventListener("click", (func)=>{
+		window.open("https://docs.google.com/forms/d/14tLlR_TM-sR20pXrIwSvUUisSES-GV7Z7pBfPI5DEPg/edit?ts=5f2ebbfb")
+	})
+
 
 	window.addEventListener("scroll", (func) => {
 		if(window.scrollY> 80){

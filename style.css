@@ -285,6 +285,10 @@ body{
 
 }
 
+#team-span{
+	min-width: 96%;
+
+}
 #exe
 {
 	justify-content: space-around;
@@ -350,7 +354,7 @@ body{
 	min-width: 100%;
 	padding: 0;
 	background-color: #090b1a;
-	box-sizing: 
+	margin-bottom: 0;
 }
 #xml li{
 	object-fit: contain;
@@ -416,7 +420,7 @@ img.icon{
 #register{
 	align-items: center;
 	align-content: center;
-	justify-content: center;
+	justify-content: space-around;
 }
 #register h2{
 	text-align: left;
@@ -427,8 +431,8 @@ img.icon{
 	flex-direction: row;
 }
 #options img{
-	max-width: 100%;
-	max-height: 100%;
+	max-width: 60%;
+	max-height: 60%;
 	margin: 20px;
 	padding: 0;
 }
@@ -440,9 +444,15 @@ img.icon{
 	background-color: #090b1a;
 	margin: 30px;
 }
-#options li figcaption{
-
-	color: #d12106;
+#options li:hover{
+	opacity: 0.5;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+#reg-span{
+	min-width: 100%;
+	display: flex;
+	justify-content: space-around;
 }
 
 
