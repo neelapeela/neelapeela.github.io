@@ -35,7 +35,7 @@
 							</figure><p>
 								Resources are running out at lightspeed. All governments have enforced <strong>immediate quarantine</strong>. Times are desperate. Streets are desolate. Old people said quarantine isn't anything new to them. Kids wonder why.
 							</p></li>
-							<li><figure>
+							<li id="last"><figure>
 								<img src="un.gif">
 								<p>Gustavo Ramirez: This is it. <strong>The United Nations Global Compact</strong> despite all efforts comes to a very unfortunate conclusion. Humanity has lived its prime. It's about time we pass on. </p>
 							</figure></li>
@@ -403,7 +403,7 @@
 		document.querySelector("#theme").scrollLeft += 750;
 	})
 	document.querySelector("#left").addEventListener("click", (func)=>{
-		document.querySelector("#theme").scrollLeft -= 750;
+		document.querySelector("#first").scrollIntoView();
 	})
 
 

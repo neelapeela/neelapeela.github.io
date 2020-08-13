@@ -240,6 +240,9 @@ body{
 #theme #first{
 	margin-left: 11%;
 }
+#theme #last{
+	padding-right: 11%;
+}
 #theme li{
 	font-style: italic;
 	display: flex;
