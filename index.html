@@ -25,7 +25,9 @@
 					<p id="desc"> The tech club of <strong>Ryan International School, Vasant Kunj</strong> organises its annual club event <strong>\root\20</strong> for the first time ever on the <strong>1st of October, 2020.</strong><br><br>Backed by a team of passionate tech enthusiasts, <strong>\root\20</strong> seeks to offer a rich and holistic platform for you to unravel parts of your own existence that may be wholly devoted to the love for technology. You never know what may be the source for enlightenment. For all we know, it might just be <strong>\root\20</strong>. </p><br>
 					
 						<h2>THE END IS NIGH</h2>
+							
 						<ul id="theme">
+							<img id="left" src="left.png">
 							<li id="first"><figure><img src="earth.gif"></figure><p>It's 2070. The world as we knew it is no more the world as we knew it. <strong>Hazardous UV radiation</strong> has sealed humanity back into their cement shelters. A final bout is yet to come around. <strong>The end is nigh</strong>.</p></li>
 							<li><figure><img src="uv.gif"><p><strong>October 1</strong>, as per calculations, is when the sun will emit severe <strong>Coronal Mass Ejection</strong> which is set to inevitably wipe humanity from the face of Earth, unless you can argue otherwise.</p></figure></li>
 							<li><figure>
@@ -37,7 +39,9 @@
 								<img src="un.gif">
 								<p>Gustavo Ramirez: This is it. <strong>The United Nations Global Compact</strong> despite all efforts comes to a very unfortunate conclusion. Humanity has lived its prime. It's about time we pass on. </p>
 							</figure></li>
+							<img id="right" src="right.png">
 						</ul>
+
 						<ul id="timer">
 							<li><p id="demo"></p></li>
 							<li><p>
@@ -392,6 +396,11 @@
 	})
 	document.querySelector("#school-button").addEventListener("click", (func)=>{
 		window.open("https://forms.gle/Hau7NLEMxKfW4kaz9")
+	})
+
+	//horizontal scroll
+	document.querySelector("#right").addEventListener("click", (func)=>{
+		document.querySelector("#theme").scrollLeft += 750;
 	})
 
 

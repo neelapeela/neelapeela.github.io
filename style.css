@@ -138,6 +138,7 @@ body{
 }
 
 #up{
+	z-index: 20;
 	background-color: #090b1a;
 	display: flex;
 	width: 100%;
@@ -234,14 +235,17 @@ body{
 	overflow-x: scroll;
 	background-color: #0c0f24;
 }
+#theme #first{
+	margin-left: 11%;
+}
 #theme li{
 	font-style: italic;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-	margin-left: 20px;
-	margin-right: 11%;
+	margin-left: 9%;
+	margin-right: 9%;
 	min-width: 70%;
 	min-height: 70%;
 	background-color: #090b1a;
@@ -250,9 +254,19 @@ body{
 	max-width: 100%;
 	max-height: 100%;
 }
-#theme #first{
-	margin-left: 12%;
-	margin-right: 11%;
+
+#right{
+	z-index: 10;
+	padding-right: 15px;
+	right: 0;
+	position: absolute;
+	padding-top: 120px;
+}
+#left{
+	z-index: 10;
+	left: 0;
+	position: absolute;
+	padding-top: 120px;
 }
 #timer{
 	margin-top: 50px;
