@@ -234,6 +234,8 @@ body{
 	flex-direction: row;
 	overflow-x: scroll;
 	background-color: #0c0f24;
+	transition: all 0.5s;
+	scroll-behavior: smooth;
 }
 #theme #first{
 	margin-left: 11%;
