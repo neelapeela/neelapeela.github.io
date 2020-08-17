@@ -33,10 +33,11 @@ p{
 a{
 	margin: 50px;
 	font-size: 30px;
+	padding: 10px;
 	justify-content: center;
 	text-align: center;
-	background-color: #3ad676;
-	color: #090b1a;
+	background-color: #090b1a;
+	color: white;
 	text-decoration: none;
 }
 h1{font-weight: normal;
