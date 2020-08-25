@@ -294,6 +294,12 @@ body{
 	font-size: 70px;
 	color: #d12106;
 }
+#timer iframe{
+	margin-bottom: 30px;
+	min-width: 88%;
+	min-height: 88%;
+	border-radius: 30px;
+}
 #tag{
 	margin: 0;
 	padding: 0;
