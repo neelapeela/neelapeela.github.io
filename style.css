@@ -294,10 +294,11 @@ body{
 	font-size: 70px;
 	color: #d12106;
 }
-#timer iframe{
-	margin-bottom: 30px;
-	min-width: 88%;
-	min-height: 88%;
+iframe{
+	margin: 30px;
+	align-self: center;
+	min-width: 95%;
+	min-height: 95%;
 	border-radius: 30px;
 }
 #tag{
