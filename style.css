@@ -12,6 +12,11 @@ p{
 	font-size: 20px;
 }
 
+#notification{
+	display: flex;
+	text-align: center;
+}
+
 #desc{
 	font-size: 20px;
 	text-align: center;
@@ -42,7 +47,8 @@ a{
 	color: white;
 	text-decoration: none;
 }
-h1{font-weight: normal;
+h1{
+	font-weight: normal;
 	color: 
 }
 h2{
